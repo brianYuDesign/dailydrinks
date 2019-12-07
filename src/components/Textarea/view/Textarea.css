@@ -1,0 +1,14 @@
+.group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+textarea {
+  width: 80%;
+  padding: 12px 20px;
+  margin-left: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
