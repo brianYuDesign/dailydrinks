@@ -1,5 +1,5 @@
 import React from "react"
-import { OrderContainer } from "./module/order"
+import { OrderContainer } from "./modules/order"
 import "./App.css"
 
 const App = () => {
