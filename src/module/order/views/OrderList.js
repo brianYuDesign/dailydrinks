@@ -5,15 +5,14 @@ import OrderForm from "./OrderForm"
 
 const OrderList = () => {
   const { orders } = useContext(OrderContext)
-  console.log(orders)
   return (
-    <div>
+    <ul className="orderList">
       <OrderForm />
-      OrderList
+      <h1>Order List</h1>
       {orders.map(item => (
         <OrderItem {...item} key={item.id} />
       ))}
-    </div>
+    </ul>
   )
 }
 
