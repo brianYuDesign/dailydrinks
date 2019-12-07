@@ -10,8 +10,8 @@ const OrderList = () => {
     <div>
       <OrderForm />
       OrderList
-      {orders.map((item, index) => (
-        <OrderItem {...item} key={index} />
+      {orders.map(item => (
+        <OrderItem {...item} key={item.id} />
       ))}
     </div>
   )
